@@ -1,0 +1,44 @@
+  .Title{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+    margin-top: 2%;
+}
+
+  .Button{
+    margin-top: 8%;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: white;
+    background-color: #3493d2;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+  }
+
+  .Button:hover{
+    background-color: #2979a8;
+    color: white;
+  }
+
+  .Center{
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  img{
+    width: 2.5%;
+    height: 2.5%;
+    text-align: center;
+  }
